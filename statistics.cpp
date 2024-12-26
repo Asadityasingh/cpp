@@ -33,7 +33,7 @@ int main()
       for (int i = 0; i <= t-1; i++)
       {
         std::cout << i+1<<" ";
-        std::cin >> x[i];                         // taling x as input from user
+        std::cin >> x[i];                         // taking x as input from user
       }
 
       std::cout << "\nDo you want to take Assumed Mean" <<" yes = 1 and no = 0 :";
@@ -145,7 +145,7 @@ int main()
         //calculating d =x-mean
        for (i = 0; i <=t-1; i++)
         {
-          d[i]=x[i] - mean;
+          d[i]=(x[i] - mean);
         }
 
          std::cout << "\n" << 'd';    //print d
